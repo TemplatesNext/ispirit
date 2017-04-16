@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.yith_banner,
+.wp-admin p#so-panels-recommended-plugins {
+	display: none;
+}
+
+#ispirit_data-header-style.redux-container-image_select .redux-image-select img,
+#ispirit_data-header-style.redux-container-image_select .redux-image-select-selected img {
+	width: 96%!important;
+}
+
+.modal-body .vc_row-fluid .wp-editor-wrap .visual_composer_tinymce {
+	color: #373737;
+}
+
+.redux-main .form-table-section-indented {
+  margin-left: 5%!important;
+}
+
+#8_section_group.redux-group-tab.sectionsChecked #section-slide1-start.redux-section-field h3 {}
+
+#8_section_group.redux-group-tab.sectionsChecked #section-table-slide1-start.form-table.form-table-section.no-border.form-table-section-indented > tbody > tr > th {}
+
+
+#section-slide1-start h3,
+#section-slide2-start h3,
+#section-slide3-start h3,
+#section-slide4-start h3,
+#section-slide5-start h3,
+#section-slide6-start h3 {
+	background-color: #eee;
+	padding: 6px 12px;
+	background-image: url(../images/plus-minus.png);
+	background-repeat: no-repeat;
+}
+
+.redux-section-field h3 {
+	background-position: right 7px;
+	cursor: pointer;
+}
+
+.redux-section-field h3.nxrdx-minus {
+	background-position: right -56px;
+	background-color: #d0f8d4!important;
+}
+
+#section-table-slide1-start.form-table,
+#section-table-slide2-start.form-table,
+#section-table-slide3-start.form-table,
+#section-table-slide4-start.form-table,
+#section-table-slide5-start.form-table,
+#section-table-slide6-start.form-table {
+/*
+	display: none;
+*/
+	height: 1px;
+	display: block;	
+	overflow: hidden;
+}
+
+#section-table-slide1-start.form-table.show-slide,
+#section-table-slide2-start.form-table.show-slide,
+#section-table-slide3-start.form-table.show-slide,
+#section-table-slide4-start.form-table.show-slide,
+#section-table-slide5-start.form-table.show-slide,
+#section-table-slide6-start.form-table.show-slide {
+	height: auto;
+	overflow: visible;
+	display: block;
+	padding-left: 32px;
+	padding-right: 32px;
+	background-color: #eee;
+}
+
+#section-table-slide1-start {
+}
+
+#wpbody-content #viewWrapper.view_wrapper > div.wrap > div.rs-dashboard {
+	display: none;
+}
+
+.ab-top-menu > li#wp-admin-bar-_options.menupop > a.ab-item {
+	background-color: #dd9933;
+	font-weight: 500;
+	color: #FFF;
+}
+
+
+.rn-dismiss-btn {
+	display: block;
+	float: left;
+	margin-right: 12px;
+	font-weight: bold;
+	margin-top: 8px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #999;
+	padding: 0px 6px;
+	text-transform: uppercase;
+}
+
+.rn-dismiss-btn:hover {
+	color: #FFF;
+	background-color: #000;
+}

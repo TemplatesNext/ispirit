@@ -1,0 +1,131 @@
+/**
+ * Styles
+ */
+
+.product .woo-border-box.nx-flipit > a > img.secondary-image {}
+
+
+.pif-has-gallery {
+    position: relative;
+}
+
+.pif-has-gallery .onsale {
+    z-index: 1006;
+}
+
+/*
+.pif-has-gallery .secondary-image {
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0;
+}
+*/
+
+/**/
+.pif-has-gallery .secondary-image {
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:1;
+	z-index: 1005;
+}
+
+
+ /**
+ * Animation
+ */
+/* */
+.woocommerce .product .nx-flipit img.secondary-image {
+	transition-property: all;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0s;	
+}
+
+.woocommerce .product .nx-flipit img.wp-post-image {
+	transition-property: all;
+	transition-duration: 0.4s;
+	transition-delay: 0s;
+	-webkit-transform: translateZ(0);
+}
+/**/
+
+.product .nx-flipit {
+	overflow: hidden;
+}
+
+.woocommerce .product .nx-flipit img.wp-post-image {
+	opacity: 1;
+	top: 0px;
+}
+
+.woocommerce .product .nx-flipit img.secondary-image {
+	top: 0px;
+	opacity: 0;
+}
+
+.woocommerce .product .nx-flipit:hover img.wp-post-image {
+	opacity: 0;
+	top: 0px;
+}
+
+.woocommerce .product .nx-flipit:hover img.secondary-image {
+	top: 0px;
+	opacity: 1;
+}
+
+/*
+.product .nx-flipit:hover img.secondary-image {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+
+.product .nx-flipit:hover img.wp-post-image {
+    -webkit-animation-name: flipOutY;
+    -moz-animation-name: flipOutY;
+    -o-animation-name: flipOutY;
+    animation-name: flipOutY;
+
+}
+
+.product .nx-flipit:hover img.secondary-image {
+    -webkit-animation-name: flipInY;
+    -moz-animation-name: flipInY;
+    -o-animation-name: flipInY;
+    animation-name: flipInY;
+	opacity: 1;		
+}
+
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.fadeOutUp {
+    -webkit-animation-name: fadeOutUp;
+    -moz-animation-name: fadeOutUp;
+    -o-animation-name: fadeOutUp;
+    animation-name: fadeOutUp;
+}
+
+.fadeInDown {
+    -webkit-animation-name: flipInY;
+    -moz-animation-name: flipInY;
+    -o-animation-name: flipInY;
+    animation-name: flipInY;
+}
+
+.fadeOutUp {
+    -webkit-animation-name: flipOutY;
+    -moz-animation-name: flipOutY;
+    -o-animation-name: flipOutY;
+    animation-name: flipOutY;
+}
+*/
